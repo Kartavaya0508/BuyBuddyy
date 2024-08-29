@@ -1,0 +1,79 @@
+.content3 {
+  flex: 1;
+  display: flex;
+  padding: var(--boundvariablesdata5);
+}
+.content3,
+.content4,
+.content5 {
+  align-self: stretch;
+  border-radius: var(--boundvariablesdata1);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.content4 {
+  display: none;
+  padding: var(--boundvariablesdata5) var(--padding-12xs)
+    var(--boundvariablesdata5) var(--boundvariablesdata5);
+}
+.content5 {
+  display: flex;
+  padding: var(--boundvariablesdata5);
+}
+.signout-icon {
+  height: var(--boundvariablesdata6);
+  width: var(--boundvariablesdata6);
+  position: relative;
+}
+.iconset5 {
+  border-radius: var(--radius-8);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.text8 {
+  flex: 1;
+  border-radius: var(--boundvariablesdata1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame2,
+.icontext2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.icontext2 {
+  flex: 1;
+  border-radius: var(--boundvariablesdata1);
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 12px 10px;
+}
+.frame2 {
+  align-self: stretch;
+  height: 188px;
+  border-top: 1px solid var(--black-10);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--boundvariablesdata2);
+  gap: var(--boundvariablesdata3);
+  text-align: left;
+  font-size: var(--regular-size);
+  color: var(--black-100);
+  font-family: var(--regular);
+}

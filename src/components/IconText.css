@@ -1,0 +1,38 @@
+.arrowsquareout-icon {
+  height: var(--boundvariablesdata6);
+  width: var(--boundvariablesdata6);
+  position: relative;
+}
+.iconset4 {
+  border-radius: var(--radius-8);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.icontext1,
+.text6 {
+  flex: 1;
+  border-radius: var(--boundvariablesdata1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.icontext1 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: var(--boundvariablesdata5);
+  text-align: left;
+  font-size: var(--regular-size);
+  color: var(--black-100);
+  font-family: var(--regular);
+}

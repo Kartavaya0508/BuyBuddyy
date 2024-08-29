@@ -1,0 +1,40 @@
+.button-wrapper {
+  width: 242px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) 0 0;
+  box-sizing: border-box;
+}
+.history {
+  text-decoration: none;
+  width: 180px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 18px;
+  font-weight: 300;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.frame-parent {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  width: 1397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--regular1-size);
+  color: var(--white-100);
+  font-family: var(--regular);
+}
