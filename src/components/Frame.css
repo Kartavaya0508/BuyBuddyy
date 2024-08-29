@@ -1,4 +1,4 @@
-.frame3 {
+.frame2 {
   align-self: stretch;
   backdrop-filter: var(--bg-blur-100);
   background: linear-gradient(
@@ -7,10 +7,14 @@
     ),
     rgba(255, 255, 255, 0.8);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-16xl) var(--boundvariablesdata3);
+  padding: 0 var(--padding-16xl);
   box-sizing: border-box;
   max-width: 100%;
+  text-align: left;
+  font-size: var(--regular-size);
+  color: var(--color-gray-100);
+  font-family: var(--regular);
 }

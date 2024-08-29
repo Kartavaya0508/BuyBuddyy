@@ -1,0 +1,114 @@
+.search-icon {
+  width: 1.475rem;
+  height: 1rem;
+  position: relative;
+  z-index: 2;
+}
+.search-icon-container {
+  width: 5.713rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.search-input-wrapper-child {
+  height: 3.188rem;
+  width: 52.063rem;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-whitesmoke-200);
+  display: none;
+  max-width: 100%;
+}
+.search-input-wrapper-item {
+  height: 0.906rem;
+  width: 1.088rem;
+  position: relative;
+  z-index: 1;
+}
+.search {
+  text-decoration: none;
+  width: 3.219rem;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.search-input-container,
+.search-input-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.search-input-wrapper {
+  align-self: stretch;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-29xl);
+  gap: var(--gap-xl-7);
+}
+.search-input-container {
+  width: 53.056rem;
+  flex-direction: column;
+  padding: var(--padding-16xl) var(--padding-mini) 0 0;
+}
+.search-list-icon {
+  width: 1.494rem;
+  height: 1.125rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-32xl) 0 0;
+}
+.input-interactions-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.906rem;
+  height: 1.006rem;
+}
+.input-interactions-item {
+  position: absolute;
+  top: 0;
+  left: 2.2rem;
+  width: 1.006rem;
+  height: 1.006rem;
+}
+.input-interactions {
+  height: 1.006rem;
+  width: 3.206rem;
+  position: relative;
+}
+.search-bar-container {
+  position: absolute;
+  top: 1.188rem;
+  left: 1.563rem;
+  width: 85.706rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-smi-9);
+  color: var(--color-dimgray);
+  font-family: var(--font-abeezee);
+}
+@media screen and (max-width: 1200px) {
+  .search-bar-container {
+    flex-wrap: wrap;
+  }
+}

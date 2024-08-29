@@ -4,9 +4,9 @@ import "./Frame.css";
 
 const Frame = ({ className = "" }) => {
   return (
-    <section className={`frame3 ${className}`}>
+    <footer className={`frame2 ${className}`}>
       <Input1 />
-    </section>
+    </footer>
   );
 };
 

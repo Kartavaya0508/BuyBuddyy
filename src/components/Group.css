@@ -1,24 +1,8 @@
-.microphone-icon {
-  height: var(--boundvariablesdata8);
-  width: var(--boundvariablesdata8);
-  position: relative;
-}
-.button1,
-.group,
-.iconset2 {
+.group {
   border-radius: var(--radius-8);
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-}
-.button1,
-.group {
-  border-radius: var(--boundvariablesdata5);
-  padding: var(--boundvariablesdata4);
-}
-.group {
-  border-radius: var(--radius-8);
   justify-content: flex-start;
   flex-wrap: wrap;
   align-content: center;

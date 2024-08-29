@@ -4,15 +4,15 @@ import "./Input1.css";
 
 const Input1 = ({ className = "" }) => {
   return (
-    <footer className={`input ${className}`}>
-      <div className="content7">
+    <div className={`input ${className}`}>
+      <div className="content6">
         <div className="icontext2">
           <Group />
-          <div className="text6">
-            <div className="text7">Search for your Product</div>
+          <div className="text10">
+            <div className="text11">Search for your Product</div>
           </div>
         </div>
-        <div className="iconset4">
+        <div className="iconset6">
           <img
             className="paperplaneright-icon"
             loading="lazy"
@@ -21,7 +21,7 @@ const Input1 = ({ className = "" }) => {
           />
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

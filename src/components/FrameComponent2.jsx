@@ -6,7 +6,7 @@ import "./FrameComponent2.css";
 const FrameComponent2 = ({ className = "" }) => {
   return (
     <header className={`frame-group ${className}`}>
-      <div className="frame-wrapper">
+      <div className="frame-container">
         <div className="minus-square-parent">
           <Checkbox className="minus-square" colorScheme="teal" />
           <div className="clear-prompt-wrapper">
@@ -17,6 +17,9 @@ const FrameComponent2 = ({ className = "" }) => {
       <div className="content-parent">
         <Content
           contentPosition="unset"
+          contentPadding="var(--boundvariablesdata8)"
+          contentAlignSelf="unset"
+          contentMinHeight="unset"
           arrowSquareOut="/chattext.svg"
           text="Example Prompt"
           showIconSet
@@ -33,11 +36,14 @@ const FrameComponent2 = ({ className = "" }) => {
           textFlex="unset"
           textTextDecoration="none"
           textMinWidth="6.813rem"
+          iconSetBorderRadius="var(--radius-8)"
+          arrowSquareOutIconHeight="var(--boundvariablesdata6)"
+          arrowSquareOutIconWidth="var(--boundvariablesdata6)"
         />
         <div className="content-ellipsis" />
       </div>
-      <div className="frame-container">
-        <div className="frame-div">
+      <div className="frame-wrapper1">
+        <div className="frame-parent1">
           <div className="inbox-wrapper">
             <img
               className="inbox-icon"

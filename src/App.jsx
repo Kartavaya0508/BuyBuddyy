@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import NewChat from "./pages/NewChat";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   const action = useNavigationType();
@@ -24,6 +25,10 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/dashboard":
         title = "";
         metaDescription = "";
         break;
@@ -46,6 +51,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<NewChat />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }

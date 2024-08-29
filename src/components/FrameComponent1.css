@@ -1,5 +1,5 @@
-.frame-child {
-  align-self: stretch;
+.frame-child1 {
+  width: 16.938rem;
   height: 64rem;
   position: relative;
   border-radius: var(--br-10xs);
@@ -14,65 +14,43 @@
   position: relative;
   z-index: 1;
 }
-.content6,
 .vector-wrapper {
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-}
-.vector-wrapper {
-  display: flex;
   align-items: flex-start;
-  padding: 0 var(--padding-lg);
-}
-.content6 {
-  align-self: stretch;
-  border-radius: var(--boundvariablesdata5);
-  display: none;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  padding: var(--boundvariablesdata9);
-}
-.frame-parent,
-.frame2,
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.frame2 {
-  width: 17.625rem;
   justify-content: flex-start;
-  padding: var(--boundvariablesdata2);
-  box-sizing: border-box;
-  gap: var(--boundvariablesdata4);
+  padding: 0 var(--padding-9xs);
 }
-.frame-parent,
-.sidebar {
+.button1 {
   align-self: stretch;
-}
-.sidebar {
-  background-color: var(--white-100);
-  border-right: 1px solid var(--black-10);
-  box-sizing: border-box;
-  justify-content: space-between;
-  padding: var(--padding-xs-5) 0 var(--padding-xs-5) 0;
-  min-height: 6.438rem;
   z-index: 1;
 }
-.frame-parent {
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-11xs);
 }
-.user-options-child {
+.frame-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs) 0 var(--padding-12xs);
+}
+.navigation-child {
   background-color: transparent;
   align-self: stretch;
+  height: 1.875rem;
   font-family: var(--regular);
   font-size: var(--regular-size);
   color: var(--color-black);
   z-index: 1;
 }
-.frame-item {
+.frame-child2 {
   height: 1.875rem;
   width: 15.313rem;
   position: relative;
@@ -108,7 +86,7 @@
   white-space: nowrap;
   z-index: 2;
 }
-.rectangle-group {
+.rectangle-container {
   align-self: stretch;
   border-radius: var(--br-10xs);
   background-color: var(--white-100);
@@ -121,25 +99,25 @@
   gap: var(--gap-2xs);
   z-index: 1;
 }
-.signout-icon1 {
+.signout-icon2 {
   width: 1.063rem;
   height: 1.063rem;
   position: relative;
   z-index: 2;
 }
-.signout-wrapper {
+.frame-div,
+.logout-button {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-7xs);
 }
-.rectangle-container {
+.frame-div {
   flex: 1;
   border-radius: var(--br-10xs);
   background-color: var(--white-100);
   border: 1px solid var(--color-gray-200);
-  display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
@@ -147,47 +125,59 @@
   gap: var(--gap-sm);
   z-index: 1;
 }
-.user-options,
-.user-options-inner {
+.navigation,
+.navigation-inner,
+.rectangle-group {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.user-options-inner {
+.navigation-inner {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-12xs);
 }
-.user-options {
-  flex: 1;
+.navigation,
+.rectangle-group {
   flex-direction: column;
-  gap: var(--gap-lgi);
 }
-.user-options-wrapper {
+.navigation {
   align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 var(--padding-xs) 0 var(--padding-smi);
+  gap: var(--gap-lgi);
   top: 0;
   z-index: 99;
   position: sticky;
 }
-.rectangle-parent {
+.rectangle-group {
   width: 16.938rem;
   border-radius: var(--br-10xs);
   background-color: var(--white-100);
   border: 1px solid var(--color-gray-300);
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: var(--padding-xl) 0 var(--padding-16xl);
-  gap: var(--gap-698xl);
+  padding: var(--padding-xl) var(--padding-2xs) var(--padding-16xl)
+    var(--padding-xs);
+  gap: var(--gap-723xl);
   text-align: left;
   font-size: var(--regular-size);
   color: var(--color-black);
   font-family: var(--regular);
+}
+@media screen and (max-width: 1050px) {
+  .rectangle-group {
+    display: none;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-group {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-group {
+    gap: var(--gap-352xl);
+  }
 }
