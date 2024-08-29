@@ -8,14 +8,14 @@ const Group = ({ className = "" }) => {
       <Button1
         buttonPosition="unset"
         fourLeafClover="/microphone.svg"
-        fourLeafCloverIconWidth="var(--boundvariablesdata7)"
-        fourLeafCloverIconHeight="var(--boundvariablesdata7)"
+        fourLeafCloverIconWidth="20px"
+        fourLeafCloverIconHeight="20px"
       />
       <Button1
         buttonPosition="unset"
         fourLeafClover="/image.svg"
-        fourLeafCloverIconWidth="var(--boundvariablesdata7)"
-        fourLeafCloverIconHeight="var(--boundvariablesdata7)"
+        fourLeafCloverIconWidth="20px"
+        fourLeafCloverIconHeight="20px"
       />
     </div>
   );

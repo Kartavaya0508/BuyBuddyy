@@ -17,7 +17,7 @@ const FrameComponent2 = ({ className = "" }) => {
       <div className="content-parent">
         <Content
           contentPosition="unset"
-          contentPadding="var(--boundvariablesdata8)"
+          contentPadding="var(--boundvariablesdata6)"
           contentAlignSelf="unset"
           contentMinHeight="unset"
           arrowSquareOut="/chattext.svg"
@@ -37,8 +37,8 @@ const FrameComponent2 = ({ className = "" }) => {
           textTextDecoration="none"
           textMinWidth="6.813rem"
           iconSetBorderRadius="var(--radius-8)"
-          arrowSquareOutIconHeight="var(--boundvariablesdata6)"
-          arrowSquareOutIconWidth="var(--boundvariablesdata6)"
+          arrowSquareOutIconHeight="var(--boundvariablesdata7)"
+          arrowSquareOutIconWidth="var(--boundvariablesdata7)"
         />
         <div className="content-ellipsis" />
       </div>

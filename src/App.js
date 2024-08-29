@@ -6,7 +6,9 @@ import {
   useLocation,
 } from "react-router-dom";
 import NewChat from "./pages/NewChat";
-import Dashboard from "./pages/Dashboard";
+import Dashboard1 from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard1";
+import Productinfo from "./pages/Productinfo";
 
 function App() {
   const action = useNavigationType();
@@ -32,6 +34,14 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/dashboard1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/productinfo":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -51,7 +61,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<NewChat />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/dashboard" element={<Dashboard1 />} />
+      <Route path="/dashboard1" element={<Dashboard />} />
+      <Route path="/productinfo" element={<Productinfo />} />
     </Routes>
   );
 }

@@ -103,9 +103,9 @@
   gap: var(--gap-xl);
   max-width: 100%;
   text-align: left;
-  font-size: var(--regular-size);
+  font-size: var(--font-size-sm);
   color: var(--color-black);
-  font-family: var(--regular);
+  font-family: var(--font-inter);
 }
 @media screen and (max-width: 750px) {
   .frame-group {

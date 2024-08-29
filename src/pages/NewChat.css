@@ -47,9 +47,9 @@
 }
 .search-container {
   align-self: stretch;
-  padding: 0 var(--padding-xl) 0 1.375rem;
+  padding: 0 var(--padding-xl) 0 var(--padding-3xl);
   box-sizing: border-box;
-  font-size: 1.25rem;
+  font-size: var(--font-size-xl);
 }
 .input-container,
 .input-header {

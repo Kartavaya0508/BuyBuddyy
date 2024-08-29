@@ -1,4 +1,4 @@
-.frame-child1 {
+.frame-child2 {
   width: 16.938rem;
   height: 64rem;
   position: relative;
@@ -14,22 +14,20 @@
   position: relative;
   z-index: 1;
 }
+.frame-parent,
+.frame-wrapper,
 .vector-wrapper {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 var(--padding-9xs);
 }
-.button1 {
-  align-self: stretch;
-  z-index: 1;
+.vector-wrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
 }
 .frame-parent,
 .frame-wrapper {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-self: stretch;
 }
 .frame-parent {
   flex: 1;
@@ -37,20 +35,20 @@
   gap: var(--gap-21xl);
 }
 .frame-wrapper {
-  align-self: stretch;
+  height: 5.875rem;
   flex-direction: row;
   padding: 0 var(--padding-10xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
 }
 .navigation-child {
   background-color: transparent;
   align-self: stretch;
-  height: 1.875rem;
-  font-family: var(--regular);
-  font-size: var(--regular-size);
+  font-family: var(--font-inter);
+  font-size: var(--font-size-sm);
   color: var(--color-black);
   z-index: 1;
 }
-.frame-child2 {
+.frame-child3 {
   height: 1.875rem;
   width: 15.313rem;
   position: relative;
@@ -99,7 +97,7 @@
   gap: var(--gap-2xs);
   z-index: 1;
 }
-.signout-icon2 {
+.signout-icon4 {
   width: 1.063rem;
   height: 1.063rem;
   position: relative;
@@ -158,9 +156,9 @@
     var(--padding-xs);
   gap: var(--gap-723xl);
   text-align: left;
-  font-size: var(--regular-size);
+  font-size: var(--font-size-sm);
   color: var(--color-black);
-  font-family: var(--regular);
+  font-family: var(--font-inter);
 }
 @media screen and (max-width: 1050px) {
   .rectangle-group {

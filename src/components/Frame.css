@@ -13,8 +13,4 @@
   padding: 0 var(--padding-16xl);
   box-sizing: border-box;
   max-width: 100%;
-  text-align: left;
-  font-size: var(--regular-size);
-  color: var(--color-gray-100);
-  font-family: var(--regular);
 }
