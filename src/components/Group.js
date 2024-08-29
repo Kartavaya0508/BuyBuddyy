@@ -1,15 +1,11 @@
-import { FunctionComponent } from "react";
+import PropTypes from "prop-types";
 import "./Group.css";
 
-export type GroupType = {
-  className?: string;
-};
-
-const Group: FunctionComponent<GroupType> = ({ className = "" }) => {
+const Group = ({ className = "" }) => {
   return (
     <div className={`group ${className}`}>
-      <div className="button">
-        <div className="iconset">
+      <div className="button1">
+        <div className="iconset2">
           <img
             className="microphone-icon"
             loading="lazy"
@@ -18,8 +14,8 @@ const Group: FunctionComponent<GroupType> = ({ className = "" }) => {
           />
         </div>
       </div>
-      <div className="button">
-        <div className="iconset">
+      <div className="button1">
+        <div className="iconset2">
           <img
             className="microphone-icon"
             loading="lazy"
@@ -30,6 +26,10 @@ const Group: FunctionComponent<GroupType> = ({ className = "" }) => {
       </div>
     </div>
   );
+};
+
+Group.propTypes = {
+  className: PropTypes.string,
 };
 
 export default Group;

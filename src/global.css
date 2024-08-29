@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -10,53 +10,69 @@ body {
   --font-lato: Lato;
 
   /* font sizes */
-  --regular-size: 14px;
-  --font-size-xl: 20px;
-  --regular1-size: 18px;
+  --regular-size: 0.875rem;
 
   /* Colors */
   --white-100: #fff;
   --color-steelblue-100: #457d99;
   --color-steelblue-200: rgba(69, 125, 153, 0.44);
   --black-100: #1c1c1c;
-  --color-gray-100: rgba(2, 2, 2, 0.6);
   --black-10: rgba(28, 28, 28, 0.1);
+  --color-gray-200: rgba(0, 0, 0, 0.12);
+  --color-gray-300: rgba(0, 0, 0, 0.1);
+  --color-gray-100: rgba(2, 2, 2, 0.6);
   --color-black: #000;
 
   /* Spacing */
-  --boundvariablesdata: 24px;
-  --boundvariablesdata1: 8px;
-  --boundvariablesdata2: 20px;
-  --boundvariablesdata3: 4px;
-  --boundvariablesdata4: 8px;
-  --boundvariablesdata5: 12px;
-  --radius-8: 8px;
-  --boundvariablesdata6: 24px;
-  --size-20: 20px;
-  --boundvariablesdata9: 20px;
+  --boundvariablesdata: 1.5rem;
+  --boundvariablesdata2: 1.25rem;
+  --boundvariablesdata3: 2.5rem;
+  --boundvariablesdata4: 0.25rem;
+  --boundvariablesdata5: 0.5rem;
+  --boundvariablesdata6: 0.5rem;
+  --boundvariablesdata7: 1.5rem;
+  --boundvariablesdata8: 1.25rem;
+  --radius-8: 0.5rem;
+  --boundvariablesdata9: 0.75rem;
 
   /* Gaps */
-  --gap-9xs: 4px;
-  --gap-xs: 12px;
-  --gap-xl: 20px;
-  --gap-5xs: 8px;
-  --gap-base: 16px;
+  --gap-4xs: 0.562rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-xl: 1.25rem;
+  --gap-xs: 0.75rem;
+  --gap-7xs: 0.375rem;
+  --gap-698xl: 44.812rem;
+  --gap-lgi: 1.187rem;
+  --gap-sm: 0.875rem;
+  --gap-2xs: 0.687rem;
+  --gap-11xs: 0.125rem;
+  --gap-9xs: 0.25rem;
 
   /* Paddings */
-  --padding-xl: 20px;
-  --padding-xs: 12px;
-  --padding-11xs: 2px;
-  --padding-12xs: 1px;
-  --padding-29xl: 48px;
-  --padding-5xs: 8px;
-  --padding-46xl: 65px;
-  --padding-sm: 14px;
-  --padding-9xs: 4px;
+  --padding-lg: 1.125rem;
+  --padding-16xl: 2.187rem;
+  --padding-21xl: 2.5rem;
+  --padding-5xl: 1.5rem;
+  --padding-xl: 1.25rem;
+  --padding-11xs: 0.125rem;
+  --padding-9xs: 0.25rem;
+  --padding-10xs: 0.187rem;
+  --padding-256xl: 17.187rem;
+  --padding-xs: 0.75rem;
+  --padding-8xs: 0.312rem;
+  --padding-4xs: 0.562rem;
+  --padding-smi: 0.812rem;
+  --padding-12xs: 0.062rem;
+  --padding-22xl: 2.562rem;
+  --padding-7xs: 0.375rem;
+  --padding-20xl: 2.437rem;
+  --padding-xs-5: 0.718rem;
 
   /* Border radiuses */
-  --br-5xs: 8px;
-  --br-9xs: 4px;
   --br-7xs: 6px;
+  --br-5xs: 8px;
+  --br-10xs: 3px;
 
   /* Effects */
   --bg-blur-100: blur(100px);

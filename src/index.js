@@ -3,14 +3,29 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import createCache from "@emotion/cache";
+import { CacheProvider } from "@emotion/react";
 import "./global.css";
 
+const chakraTheme = extendTheme({
+  styles: { global: { img: { maxWidth: "unset" } } },
+});
+const emotionCache = createCache({
+  key: "emotion-cache",
+  prepend: true,
+});
+
 const container = document.getElementById("root");
-const root = createRoot(container!);
+const root = createRoot(container);
 
 root.render(
   <BrowserRouter>
-    <App />
+    <CacheProvider value={emotionCache}>
+      <ChakraProvider theme={chakraTheme}>
+        <App />
+      </ChakraProvider>
+    </CacheProvider>
   </BrowserRouter>
 );
 

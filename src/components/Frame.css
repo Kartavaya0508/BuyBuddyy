@@ -1,24 +1,16 @@
-.frame1 {
-  position: absolute;
-  top: 908px;
-  left: 271px;
+.frame3 {
+  align-self: stretch;
   backdrop-filter: var(--bg-blur-100);
   background: linear-gradient(
       rgba(255, 255, 255, 0.4),
       rgba(255, 255, 255, 0.4)
     ),
     rgba(255, 255, 255, 0.8);
-  width: 1158px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
-  padding: var(--boundvariablesdata2);
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) var(--boundvariablesdata3);
   box-sizing: border-box;
-  min-height: 116px;
   max-width: 100%;
-  text-align: left;
-  font-size: var(--regular-size);
-  color: var(--color-gray-100);
-  font-family: var(--regular);
 }
